@@ -1,0 +1,26 @@
+Important information concerning XBlast OS v0.56 update.
+
+Your XBlast device (XBlast Lite or Aladdin XBlast) will need
+to already be at least at version v0.50 in order to apply v0.56. 
+Trying to apply v0.56 update when running a version XBlast OS 
+older than v0.50 will result in it identifying the update image 
+as invalid.
+
+Starting with v0.55, XBlast OS integrates a recovery method
+that will reset all Xblast OS settings to their defaults on
+launch. To trigger the recovery, you must hold Right trigger,
+Left trigger, X button and Y button all at the same time on 
+console boot or on XBE launch. As always, to actually persist
+the default settings, you must either boot a BIOS bank or
+select "Power OFF" or "Reboot" menu items in XBlast OS. 
+Simply powering off the console via the power button will
+revert to your previous settings on next boot.
+
+Also starting with v0.55. XBlast OS integrates a recovery
+mechanism in the unlikely event of an interrupted OS update.
+If such event was to occur, XBlast OS would default to booting
+the 512KB BIOS bank to allow you to retry updating the OS
+via the XBE version of XBlast OS. That's why, starting with
+v0.55, it is strongly suggested to always ensure your Xbox
+can fully boot from the 512KB BIOS bank before attempting
+a future OS update.
