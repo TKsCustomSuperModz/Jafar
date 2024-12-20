@@ -1,10 +1,9 @@
 
 # Jafar
-![Jafar PCB](https://github.com/Kekule-OXC/Jafar/blob/main/images/JAFAR_pcb.jpg?raw=true)
+![Jafar LOGO](https://github.com/TKsCustomSuperModz/Jafar/blob/main/Images/Jafar%20Logo.png?raw=true)
 
-This is a custom board reimagination of the Aladdin chip for the Original Xbox. gerbers are available [here](https://github.com/Kekule-OXC/Jafar/blob/main/Gerbers/jafar_gerber_v1.zip)
-
-This VHDL was written by PsychoChewbacca and released with his AladdinXBlast repository
+This is a custom board reimagination of the Aladdin chip for the Original Xbox.
+This VHDL was written by Psyko_Chewbacca and released with his AladdinXBlast repository available [here](https://bitbucket.org/psyko_chewbacca/aladdin_xt_cpld)
 
 # Licensing
 
@@ -29,14 +28,4 @@ Jafar is free and open source. Please respect the licenses available in their re
     
 5.  The flash chip needs to either be programmed ahead of time, or can be hot-swapped with an existing chip to program it.
         
-6.  Install onto the LPC header in your Xbox. You can either ground the D0 points or attach D0 to the pad on the Jafar chip to drive it correctly using the onboard FET._
-    
-# BOM
-| Qty | Value/Model | Description | Marking | URL (Passive components provided as sample only) |
-| --- | --- | --- | --- | --- |
-| 1 | LC4032V-75TN44CTQFP44 | Mach 4000 series CPLD 32MC | U1 | https://www.digikey.com/short/47m5hh |
-| 1 | SST49LF080A-33-4C-NHEPLCC32_NH_SST_MCH- | PLCC32 LPC flash | U2 | https://www.digikey.com/short/47m54w |
-| 1 | 0805 Resistor ~100ohm | around 100ohm 1/8W 0805 resistor | R1| https://www.digikey.com/short/47m59f |
-| 1 | 0805 LED| any color 0805 LED| LED1 |https://www.digikey.com/short/47m5b2 |
-| 1 | IRLML6246TRPBF| N-Channel 20V MOSFET | T1 | https://www.digikey.com/short/47m5zw |
-| 1 | 2x6 female pinheader| 2x6 header| SV1 | https://www.digikey.com/short/47m550 |
+6.  Install onto the LPC header in your Xbox. You can either ground the D0 points or attach D0 to the pad on the Jafar chip to drive it correctly using the onboard FET.
