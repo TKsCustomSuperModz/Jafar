@@ -1,3 +1,5 @@
+![Jafar LOGO](https://github.com/TKsCustomSuperModz/Jafar/blob/main/Images/Jafar%20Logo%20(BIG).png?raw=true)
+
 
 # Kekule - Jafar Gen1 - Unreleased
 
