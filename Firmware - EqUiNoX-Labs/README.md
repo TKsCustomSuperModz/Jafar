@@ -1,5 +1,7 @@
 # Aladdin XT CPLD mods
 
+Projects: (source for these can be found [here](https://github.com/Team-Resurgent/Aladdin-Lattice))
+
 This package contains HDL projects to program the Aladdin XT PLUS2 clone devices.
 
 You will require Lattice ISPLever Classic software suite (version 2.0 at the time of writing) to generate programming files.
