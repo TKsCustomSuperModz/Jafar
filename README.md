@@ -4,7 +4,7 @@
 
 This is a custom board reimagination of the Aladdin chip for the Original Xbox.
 
-This VHDL was written by Psyko_Chewbacca and released with his AladdinXBlast repository available [here](https://bitbucket.org/psyko_chewbacca/aladdin_xt_cpld)
+This VHDL was written by Psyko_Chewbacca and released with his AladdinXBlast repository available [here](https://bitbucket.org/psyko_chewbacca/aladdin_xt_cpld).
 
 # Licensing
 
