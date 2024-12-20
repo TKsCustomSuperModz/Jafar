@@ -1,5 +1,5 @@
 
-# Jafar
+# Jafar Chip
 ![Jafar LOGO](https://github.com/TKsCustomSuperModz/Jafar/blob/main/Images/Jafar%20Logo.png?raw=true)
 
 This is a custom board reimagination of the Aladdin chip for the Original Xbox.
