@@ -1,0 +1,76 @@
+VAR padButton = 0
+VAR newFanSpeed = 20
+VAR changeFanSpeed = 0
+VAR newLedColor = 0
+VAR quit = 0
+
+$buttonReleaseLoop
+padButton = XPAD()
+
+IF(padButton != 0)
+    GOTO buttonReleaseLoop
+ENDIF
+
+padButton = XPAD()
+
+IF(padButton == xpadA)
+    IF(newLedColor < 8)
+        newLedColor = newLedColor + 1
+    ELSE
+        newLedColor = 1
+    ENDIF
+
+    IF(newLedColor == 1)
+        LED("rgrg")
+    ENDIF
+    IF(newLedColor == 2)
+        LED("roro")
+    ENDIF
+    IF(newLedColor == 3)
+        LED("ogog")
+    ENDIF
+    IF(newLedColor == 4)
+        LED("rrrr")
+    ENDIF
+    IF(newLedColor == 5)
+        LED("oooo")
+    ENDIF
+    IF(newLedColor == 6)
+        LED("gggo")
+    ENDIF
+    IF(newLedColor == 7)
+        LED("oxox")
+    ENDIF
+    IF(newLedColor == 8)
+        LED("rogx")
+    ENDIF
+ENDIF
+
+IF(padButton == xpadB)
+	quit = 1	
+ENDIF
+
+IF(padButton == xpadX)
+    IF(newFanSpeed >= 20)
+        changeFanSpeed = 1
+        newFanSpeed = newFanSpeed - 10
+    ENDIF
+ENDIF
+
+IF(padButton !== xpadY)
+    IF(newFanSpeed <= 90)
+        changeFanSpeed = 1
+        newFanSpeed = newFanSpeed + 10
+    ENDIF
+ENDIF
+
+IF(changeFanSpeed == 1)
+    changeFanSpeed = 0
+    FAN(newFanSpeed)
+ENDIF
+
+IF(quit != 1)
+    GOTO buttonReleaseLoop
+ENDIF
+
+END
